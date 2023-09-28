@@ -1,5 +1,5 @@
 .header
-   height: 90vh
+   height: 95vh
    background: url('/img/header-bg-large-1.jpg') center/cover no-repeat
    &__top
       display: flex
@@ -11,7 +11,7 @@
       height: 36.9rem
       background-color: #F8F200
       position: absolute
-      top: calc( 90vh - 36.9rem )
+      top: calc( 95vh - 36.9rem )
       right: 0
       padding: 7rem 7rem 0 7rem
       clip-path: polygon(0 15%, 7.5% 0, 100% 0, 100% 85%, 92.5% 100%, 0% 100%)
@@ -30,7 +30,10 @@
       line-height: 4rem
       font-family: Roboto
       font-weight: 700
-
+      transition: all 0.5s ease
+      &:hover
+         background-color: #585e57
+         color: #000
 .logo
    &__img
       display: block

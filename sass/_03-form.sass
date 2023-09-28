@@ -1,0 +1,107 @@
+.form
+   &__bg-border
+      background: url('/img/form-bg.png') center/cover no-repeat
+      height: 7rem
+   &__main-part
+      background-color: #000
+   &__logo-icon
+      display: inline-block
+      width: 13.2rem
+      margin-right: 3.2rem
+      margin-top: 1.5em
+      margin-bottom: 2.5rem
+   &__title
+      color: #fff
+      font-family: Archangelsk
+      font-size: 6.2rem
+      display: inline-block
+      margin-top: 7rem
+   &__text
+      width: 95.2rem
+      color: #fff
+      font-family: Roboto
+      font-size: 1.8rem
+      line-height: 3.4rem
+      padding-bottom: 9.8rem
+      &_blue
+         color: #52BEDC
+   &__form > *
+      color: #fff
+      font-size: 1.8rem
+      font-family: Roboto
+   &__name
+      display: block
+      width: 46rem
+      border: none
+      border-bottom: 0.1rem solid #777
+      padding-bottom: 1.3rem
+      margin-bottom: 3.5rem
+      transition: all 0.7s ease
+      &::-webkit-input-placeholder
+         color: #fff
+      &:hover
+         width: 70rem  
+   &__email
+      display: block
+      width: 46rem
+      border: none
+      padding-bottom: 1.3rem
+      margin-bottom: 3.5rem
+      border-bottom: 0.1rem solid #777
+      transition: all 0.7s ease
+      &::-webkit-input-placeholder
+         color: #fff
+      &:hover
+         width: 70rem  
+   &__files
+      width: 46rem
+      height: 12rem
+      border: 0.1rem dashed #777
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      margin-bottom: 3.5rem
+   &__file
+      visibility: hidden
+      position: absolute
+   &__file-label
+      text-decoration: underline
+      margin-bottom: 0.7rem
+      font-weight: 300
+   &__file-subtitle
+      font-size: 1.2rem
+      font-weight: 300
+   &__button
+      display: block
+      background: #F8F200
+      padding: 1.5rem 5rem
+      color: #000
+      font-weight: 700
+      margin-bottom: 1.5rem
+      transition: all 0.3s ease
+      &:hover
+         background: #585e57
+   &__checkbox
+      position: absolute
+      z-index: -1
+      opacity: 0
+      &:checked+label::before
+         content: ''
+         background: url('/icons/custom-check.svg') center/cover no-repeat        
+   &__checkbox-label
+      color: #fff
+      font-size: 1.2rem
+      font-weight: 300
+      display: inline-flex
+      align-items: center
+      margin-bottom: 7rem
+      &::before
+         content: ''
+         display: inline-block
+         width: 1.4rem
+         height: 1.4rem
+         border: 1px solid #777
+         margin-right: 1rem
+
+         
