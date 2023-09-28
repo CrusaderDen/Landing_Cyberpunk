@@ -1,0 +1,93 @@
+.price
+   height: 71.7rem
+   display: grid
+   grid-template-columns: repeat(2,1fr)
+   &__left
+      width: 50vw
+      background: url('/img/price-bg.jpg') center/cover no-repeat
+   &__right
+      width: 50vw
+      background-color: #000
+   &__right-content
+      width: 54rem
+      padding-left: 3.2rem
+      padding-top: 7rem
+   &__title
+      font-family: Archangelsk
+      font-size: 6.2rem
+      color: #fff
+      margin-bottom: 2.5rem
+   &__subtitle
+      color: #52BEDC
+      font-family: Roboto
+      font-size: 2.4rem
+      font-weight: 700
+      margin-bottom: 2rem
+   &__list
+      margin-bottom: 7.5rem
+   &__item
+      font-family: Roboto
+      color: #fff
+      font-size: 1.8rem
+      &:not(:last-child)
+         margin-bottom: 2.6rem     
+   &__item-1
+      position: relative
+      padding-left: 4.2rem
+      &::before
+         content: ''
+         background: url('/icons/price/box.svg')center / cover no-repeat
+         position: absolute
+         width: 3.2rem
+         height: 3.2rem
+         top: -0.3rem
+         left: 0
+   &__item-2
+      position: relative
+      padding-left: 4.2rem
+      &::before
+         content: ''
+         background: url('/icons/price/disk.svg')center / cover no-repeat
+         position: absolute
+         width: 3.2rem
+         height: 3.2rem
+         top: -0.4rem
+         left: 0
+   &__item-3
+      position: relative
+      padding-left: 4.2rem
+      &::before
+         content: ''
+         background: url('/icons/price/collections.svg')center / cover no-repeat
+         position: absolute
+         width: 3.2rem
+         height: 3.2rem
+         top: -0.4rem
+         left: 0
+   &__icons-block-1
+      margin-bottom: 5rem
+   &__icons-block-2
+   &__icon-1
+      width: 6.2rem
+      margin-right: 7.9rem
+      transition: all 0.3s
+      &:hover
+         transform: scale(1.2) translateY(-0.2rem)
+   &__icon-2
+      width: 17.8rem
+      transition: all 0.3s
+      &:hover
+         transform: scale(1.2) translateY(-0.2rem)
+   &__icon-3
+      width: 5.8rem
+      margin-right: 8rem
+      position: relative
+      top: -0.7rem
+      transition: all 0.3s
+      &:hover
+         transform: scale(1.2) translateY(-0.2rem)
+   &__icon-4
+      width: 16.8rem
+      transition: all 0.3s
+      &:hover
+         transform: scale(1.2) translateY(-0.2rem)
